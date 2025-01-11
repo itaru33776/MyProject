@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>getElementsByName example</title>
+    </head>
+    <body>
+        <div>
+            <form name="myForm">
+                <input type="text">
+            </form>
+        </div>
+        <script>
+            //取得name是myForm的元素
+            var myForm = document.getElementsByName('myForm');
+            console.log(myForm[0].tagName);//輸出"FORM"
+        </script>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML基礎</title>
+        <style>
+            header, footer {text-align: center;background: lightblue;}
+            nav {float: left; width: 20%; background: lightyellow;}
+            article {float: left; width: 60%; background: lightgray;}
+            aside {float: right; width: 20%; background: lightgreen;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>頁首</h1>
+        </header>
+        <nav>
+            <h1>導覽頁</h1>
+        </nav>
+        <article>
+            <h1>內容區(article)</h1>
+            
+            <script>
+                var win = window.open('https://tw.news.yahoo.com/','yahoo-window','width=400,height=200');
+                win.moveTo(500,500);
+                win.moveBy(200,200);
+                win.resizeTo(800,400);
+
+            </script>
+
+        </article>
+        <aside>
+            <h1>側邊欄(aside)</h1>
+        </aside>
+        <footer>
+            <h1>頁尾(footer)</h1>
+        </footer>
+    </body>
+</html>

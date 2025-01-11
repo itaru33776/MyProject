@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>jquery example01</title>
+        <script src="/Users/k/vscode-workspace/java_rwd_web/part01/js/jquery-pratice/jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <p id="mp" style="background-color: red;">test</p>
+        <button id="bt">click me</button>
+        <script>
+            $('#bt').click(function(){
+                $('#mp').css('background-color', 'blue');
+            });
+        </script>
+    </body>
+</html>

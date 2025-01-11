@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>jquery example02</title>
+        <script src="/Users/k/vscode-workspace/java_rwd_web/part01/js/jquery-pratice/jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <p>paragraph 1</p>
+            <p>paragraph 2</p>
+        </div>
+        <button id="myButton">click me</button>
+        <script>
+            //按下click me後paragraph 1會消失
+            console.log($('p').length);
+            $('#myButton').click(function () {
+                $('#container p').get(0).style.display = 'none';
+            })
+        </script>
+    </body>
+</html>
