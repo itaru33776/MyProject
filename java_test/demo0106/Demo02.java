@@ -4,10 +4,11 @@ import java.util.ArrayList;
 
 
 class Demo02 {
+    //解蟲食算題目
     public static void main(String[] args) {
         int t = 0;
-        ArrayList<Integer> aw1 = new ArrayList<Integer>();
-        ArrayList<Integer> aw2 = new ArrayList<Integer>();
+        ArrayList<Integer> aw1 = new ArrayList<>();
+        ArrayList<Integer> aw2 = new ArrayList<>();
 
         for (int i = 20; i <= 29;i++) {
             for (int j = 10; j <= 50; j++) {
