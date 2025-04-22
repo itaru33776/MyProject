@@ -2,7 +2,7 @@ package demo0130;
 
 import java.util.Scanner;
 
-class Demo03 { 
+class ALDS11A { 
     //插入sort的排序方法
     public static void main(String[] args) {
         @SuppressWarnings("resources")

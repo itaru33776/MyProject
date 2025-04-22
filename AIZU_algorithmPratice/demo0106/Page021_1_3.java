@@ -3,7 +3,7 @@ package demo0106;
 import java.util.ArrayList;
 
 
-class Demo02 {
+class Page021_1_3 {
     //解蟲食算題目
     public static void main(String[] args) {
         int t = 0;

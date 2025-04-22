@@ -2,7 +2,7 @@ package demo0130;
 
 import java.util.Scanner;
 
-public class Demo05 {
+public class InsertionSort {
     public static void main(String[] args) {
         @SuppressWarnings("resources")
         Scanner sc = new Scanner(System.in);
